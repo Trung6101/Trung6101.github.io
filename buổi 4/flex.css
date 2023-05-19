@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: brown;
+  justify-content:space-between;
+  align-items: center;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+
+}
+.item {
+  width: 200px;
+  height: 200px;
+  color: white;
+  background-color: black;
+  font-size: 32px;
+  border: 2px solid red;
+  flex-basis: 25%;
+
+
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.item2
+{
+    flex-basis: 400px;
+    order: -1;
+    align-self: self-end;
+    flex-grow: 2;
+    
+}

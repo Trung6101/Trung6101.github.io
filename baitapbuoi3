@@ -1,0 +1,18 @@
+all card
+    car1
+        card tiêu đề
+        card content
+    card2
+        card tiêu đề
+        cardcontent
+    car3
+        card tiêu đề
+        card content
+    card4
+        card tiêu đề
+        cardcontent
+        icon
+
+
+
+list-style-type: disc; bỏ dấy chấm đầu câu của lệnh ul 
