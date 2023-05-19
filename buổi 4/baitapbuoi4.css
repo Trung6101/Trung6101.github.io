@@ -1,71 +1,75 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-}
-
-.all-card {
-  width: 1320px;
-  margin: auto;
-  justify-content: space-between;
-  align-items: center;
-}
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.card1-item {
-  flex-basis: 33.33%;
-  padding-left: 15px;
-  padding-right: 15px;
-  box-sizing: border-box;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.card1-item img {
-  max-width: 100%;
-  height: 270px;
-}
-.noidung {
-  margin: 15px;
-  font-size: 1.2rem;
-}
-
-.card2-item {
-  flex-basis: 25%;
-  color: #fff;
-  font-size: 16px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.card2 {
-  padding: 15px;
-  background-color: #30598c;
-}
-ul {
-  line-height: 2.5em;
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-.h4 {
-  font-size: 18px;
-}
-li {
-  list-style: none;
-  display: list-item;
-  text-align: left;
-}
-.noidung{
-    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .all-card {
+    width: 1320px;
+    margin: auto;
     justify-content: space-between;
-    font-size: 14.4px;
-    font-weight: lighter;
-    color: #757575;
-}
-.card-content h2 {
-    font-size: 19.2px ;color: #464646;
-}
-.card-content p i {
-    color:  #ffd600;}
+    align-items: center;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card1-item {
+    flex-basis: 33.33%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .card{
+    border-radius: 15px ;
+    box-shadow: 0 2px 4px ;
+  }
+  .card1-item img {
+    max-width: 100%;
+    height: 270px;
+  }
+  .noidung {
+    margin: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .card2-item {
+    flex-basis: 25%;
+    color: #fff;
+    font-size: 16px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .card2 {
+    padding: 15px;
+    background-color: #30598c;
+  }
+  ul {
+    line-height: 2.5em;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .h4 {
+    font-size: 18px;
+  }
+  li {
+    list-style: none;
+    display: list-item;
+    text-align: left;
+  }
+  .noidung{
+      display: flex;
+      justify-content: space-between;
+      font-size: 14.4px;
+      font-weight: lighter;
+      color: #757575;
+  }
+  .card-content h2 {
+      font-size: 19.2px ;color: #464646;
+  }
+  .card-content p i {
+      color:  #ffd600;}
