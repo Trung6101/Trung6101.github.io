@@ -1,0 +1,350 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f7fa;
+    color: #464646;
+    font-size: 16px;
+}
+
+.header {
+    background-color: #30598c;
+    color: #fff;
+    box-shadow: 0 4px 4px 0;
+    height: 62px;
+}
+
+.header-container {
+    height: 100%;
+    align-items: center;
+}
+
+.header-iner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px 0 20px;
+}
+
+.siderbar {
+    align-items: center;
+    display: flex;
+}
+
+.logo img {
+    height: 37px;
+    object-fit: cover;
+    width: 100px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    height: 30px;
+    object-fit: cover;
+    width: 30px;
+}
+
+.avatar {
+    margin-left: 24px;
+}
+
+.buttum {
+    width: 60px;
+    height: 60px;
+    background-color: #0084ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+
+}
+
+.buttum a {
+    font-size: 36px;
+    color: white;
+}
+
+.cardxd {
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.soxdx {
+    position: absolute;
+    background-color: #26a69a;
+    font-weight: 400;
+    border-radius: 3px;
+    padding: 0.3em 0.4em;
+    line-height: 1;
+    text-align: center;
+    bottom: 17px;
+    left: 16px;
+    font-size: 0.95rem;
+}
+
+.menu .main-menu {
+    display: flex;
+}
+
+.menu .main-menu .menu-item {
+    text-transform: uppercase;
+    margin-right: 24px;
+    position: relative;
+    height: 62px;
+    display: flex;
+    align-items: center;
+}
+
+.sub-menu {
+    position: absolute;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+    background-color: #fff;
+    border-radius: 4px;
+    right: 0px;
+    top: 100%;
+    display: none;
+}
+
+.sub-menu-item {
+    font-size: 15px;
+    cursor: pointer;
+    padding: 16px;
+    text-align: center;
+    text-transform: none;
+    color: #464646;
+}
+
+.sub-menu-item:hover {
+    background-color: #c4c4c4;
+    color: #fff;
+}
+
+.menu .main-menu .menu-item:hover .sub-menu {
+    display: block;
+}
+
+.menu .main-menu .menu-item:hover {
+    color: #c4c4c4;
+}
+ul{
+    list-style-type: none;
+}
+li {
+    display: list-item;
+}
+.all{
+    position: relative;
+    padding-bottom: 3rem!important;
+    padding-top: 3rem!important;
+    background-color: #f4f7fa;
+    max-width: 1320px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.phan-tu-tren{
+    margin-bottom: 15px;
+    display: flex;
+    flex: 0 0 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.phan-tu-tren .chu{
+    color: #464646;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: transparent;
+}
+.phan-tu-tren .bp{
+    font-size: 9.6px;
+    padding: 0 16px;
+}
+.gioi-thieu{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 4px;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+.chung{
+    align-items: center;
+    border: 1px solid #f4f4f4;
+    display: flex;
+    padding: 1rem 1.5rem 2rem;
+}
+.tieu-de{
+    background-color: #fff;
+    font-size: 19.2px;
+    padding: 8px 24px;
+    text-align: left;
+}
+.noi-dung{
+    border-radius: 4px;
+    background-color: #fff;
+
+}
+.dai-dien .anh img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
+.dai-dien .anh1{
+    margin-left: 16px;
+    margin-bottom: 8px;
+}
+.dai-dien button{
+    cursor: pointer;
+    box-shadow: 0 2px 2px rgba(0,0,0,.25);
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+.dai-dien i{
+    padding: 0 7px;
+}
+.dai-dien .noi-dung-chinh{
+    padding: 1rem 1.5rem 2rem;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    text-align: left;
+}
+.dai-dien .noi-dung-chinh ul {
+    display: block;
+    list-style-type: disc!important;
+    padding-left: 40px!important;
+}
+.giang-day{
+    position: sticky;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+
+}
+.day-trong{
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(0,0,0,.15);
+    overflow: scroll;
+    position: sticky;
+    top: 0;
+    border-top: 1px solid rgba(0,0,0,.125);
+    color: #464646;
+}
+.phan-tren{
+    border-radius: 4px;
+}
+.ol{
+    border-top: 1px solid rgba(0,0,0,.125);
+    padding-left: 40px;
+    padding-bottom: .5rem
+    padding-top: .5rem
+    margin-block-end: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.ol li{
+    margin-bottom: 8px;
+}
+.abcd{
+    color: #2074a1;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    position: relative;
+}
+.abcd button{
+    cursor: pointer;
+    box-shadow: 0 2px 2px rgba(0,0,0,.25);
+    color: #fff;
+    background-color: #28a745;
+    font-weight: 400;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+.giang-vien{
+    border-top: 1px solid rgba(0,0,0,.125);
+    padding: 1.5rem;
+}
+.anh-giang-vien{
+    margin: auto auto .8rem;
+    height: 80px;
+    width: 80px;
+}
+.anh-giang-vien img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.name{
+    margin-bottom: .5rem;
+    text-align: center;
+}
+.noi-dung-anh{
+    text-align: justify;
+}
+.noi-dung-anh li{
+    margin-bottom: 8px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 2.5em;
+}
+
+.card2-item {
+    flex-basis: 25%;
+    color: #fff;
+    font-size: 14px;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 100%;
+}
+
+.item2 {
+    flex-basis: 250px;
+}
+
+.item3 {
+    flex-basis: 350px;
+    flex-grow: 2;
+}
+
+.card2 {
+    padding: 15px;
+    background-color: #30598c;
+}
+
+.card2-item ul {
+    line-height: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.card2-item h4 {
+    font-size: 19px;
+    font-weight: 500;
+}
