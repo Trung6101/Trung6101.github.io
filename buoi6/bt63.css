@@ -308,13 +308,6 @@ li {
 .noi-dung-anh li{
     margin-bottom: 8px;
 }
-.card2 {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 .row {
     display: flex;

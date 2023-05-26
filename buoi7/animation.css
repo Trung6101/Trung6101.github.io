@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.baner{
+    text-align: center;
+    height: 100vh;
+    background-image:url(https://images.unsplash.com/photo-1661956602868-6ae368943878?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60) ;
+     background-repeat: no-repeat;/*khong lap lai */
+      background-size: cover; /*khong de lap lai hinh vaof khoang trong*/
+     background-position: center center;/* can anh vao giua man */
+color: white;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+}
+.baner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5; /* cho noi dung noi len trc */
+   
+}
+.content{
+    position: relative;
+    z-index: 10;
+}
+.content p{
+    margin: 20px 0;
+}
+.content heading{
+    position: relative;
+    animation: heading 1s infinite;
+}
+@keyframes heading{
+    0%{
+        right: 200px;
+        opacity: 0;
+    }
+    60%{
+        right: -50%;
+        opacity: 1;
+    }
+    100%{
+        right: 0;
+        opacity: 1;
+    }
+}
+.content{
+    margin: 20px 0;
+    position: relative;
+    animation: heading 1.5s;
+}
+.content{
+    animation: swing 1 1 3;
+
+}
