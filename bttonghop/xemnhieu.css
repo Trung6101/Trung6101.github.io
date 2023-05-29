@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    font-weight: 300;
+}
+
+.home {
+    padding: 0 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+    background-color: #2f2d2d;
+}
+
+.row {
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+.homebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: #2f2d2d;
+}
+.leftbar {
+    background-color: black;
+    color: #fff;
+    box-shadow: none;
+    min-width: 110px;
+    display: block;
+    text-align: center;
+    width: 110px;
+}
+
+.leftbar .cardlogo {
+    text-align: center;
+}
+
+.cardlogo img {
+    width: 100px;
+    max-height: 110px;
+}
+.expand{
+    background: #5a060f;
+    height: 35px;
+    line-height: 2;
+}
+.rightbar{
+    flex: auto;
+}
+.onbar {
+    background-image: url(https://imagepi.otakusan.net/extendContent/Img/408efe66-3bd5-4193-bb37-89a66af1a21e.webp);
+    height: 150px;
+    min-width: 765px;
+    background-repeat: no-repeat;
+    background-position-x: 60px;
+    position: relative;
+}
+
+.form {
+    position: relative;
+    margin: 5px 10px;
+    float: left !important;
+}
+
+.search-input {
+    background: #5a5a5a;
+    box-shadow: -0.5px -0.5px 3px 1px #1f1f1f;
+    width: 250px;
+    border: none;
+    padding: 2px 5px 2px 28px;
+    height: 35px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.form i {
+    position: absolute;
+    left: 5px;
+    top: 7px;
+    background-color: #5a5a5a;
+    font-size: 18px;
+    line-height: 1;
+    overflow: hidden;
+}
+
+.ten {
+    background: #2f2d2d;
+    cursor: pointer;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    margin: 2px 5px;
+    float: right !important;
+}
+
+.thongbao {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.ten .thongbao i {
+    font-size: 20px;
+    max-width: 22px;
+    max-height: 22px;
+    overflow: hidden;
+}
+
+.tentrung {
+    padding: 10px;
+    background: #5a060f;
+    position: relative;
+}
+
+.ten123 {
+    display: flex;
+    align-items: center;
+}
+
+.tentrung i {
+    font-size: 14px;
+    max-width: 22px;
+    max-height: 22px;
+    overflow: hidden;
+    padding-left: 5px;
+}
+
+.tentrung:hover .trung123 {
+    display: block;
+}
+
+.trung123 {
+    right: 0;
+    left: inherit;
+    background: #131010;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    list-style: none;
+    border-radius: 4px;
+    display: none;
+    text-align: left;
+    padding: 20px;
+}
+
+.trung123 i {
+    font-size: 15px;
+    max-width: 22px;
+    max-height: 22px;
+    overflow: hidden;
+    line-height: 1;
+}
+
+.trung123 li {
+    overflow: hidden;
+    position: relative;
+    border-left: 1px solid #dae6e4;
+    font-weight: 700;
+    max-width: 300px;
+    max-height: 60px;
+    overflow: hidden;
+    font-size: 14px;
+    padding: 13px 16px;
+    color: #2290d0;
+    white-space: nowrap;
+}
+.phanchinh{
+    margin: auto;
+    display: flex;
+    position: absolute;
+    top: 1px;
+    height: 140px;
+    text-align: left;
+    padding-left: 33%;
+    width: 100%;
+    pointer-events: none;
+}
+.abc{
+    align-self: flex-end;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 97%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    margin: 0.67em 0;
+}
+.wrap{
+    margin-top: -70px;
+    background-color: #2f2d2d;
+    color: #fff;
+}
+.mangamain{
+    background-image: -webkit-linear-gradient(top,transparent 150px,#000 150px,#000 100%);
+    width: 70%;
+    margin: auto;
+    padding: 0 15px 15px 15px;
+    margin-bottom: 10px;
+}
+.mangatop{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.anhmangatop{
+    width: 25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.anhmanga{
+    border-radius: 6px;
+    border: 3px solid #009688;
+}
+.anh{
+    background-image: url(https://imagepi.otakusan.net/extendContent/Manga/70186/60372808-ace9-4c10-b7eb-21d26fbb9a28.jpeg);
+    
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    padding-top: 133.33%;
+}
+
+.anh img{
+    display: none;
+    visibility: hidden;
+    width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
